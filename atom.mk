@@ -6,6 +6,6 @@ LOCAL_DESTDIR := ./
 LOCAL_MODULE := dm-crypt-dcp
 LOCAL_DESCRIPTION := dm-crypt-dcp module
 
-LOCAL_COPY_FILES := dcp-tool:lib/pv/volmount/dcp-tool
+LOCAL_COPY_FILES := dcp-tool:lib/pv/volmount/crypt/dcp-tool
 
 include $(BUILD_CUSTOM)
